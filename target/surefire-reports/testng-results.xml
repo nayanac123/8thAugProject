@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2991" started-at="2021-07-13T09:44:31Z" finished-at="2021-07-13T09:44:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2991" started-at="2021-07-13T09:44:31Z" finished-at="2021-07-13T09:44:34Z">
+      <class name="testNg.TestNG2">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testNg.TestNG2@3d3fcdb0]" name="loginTest" duration-ms="2963" started-at="2021-07-13T09:44:31Z" finished-at="2021-07-13T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="DashTest()[pri:0, instance:testNg.TestNG2@3d3fcdb0]" name="DashTest" duration-ms="0" started-at="2021-07-13T09:44:34Z" depends-on-methods="testNg.TestNG2.loginTest" finished-at="2021-07-13T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashTest -->
+        <test-method status="PASS" signature="testUser()[pri:0, instance:testNg.TestNG2@3d3fcdb0]" name="testUser" duration-ms="0" started-at="2021-07-13T09:44:34Z" depends-on-methods="testNg.TestNG2.DashTest" finished-at="2021-07-13T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+      </class> <!-- testNg.TestNG2 -->
+      <class name="testNg.TestNG1">
+        <test-method status="PASS" signature="test01()[pri:-1, instance:testNg.TestNG1@6b0c2d26]" name="test01" duration-ms="6" started-at="2021-07-13T09:44:31Z" finished-at="2021-07-13T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test03()[pri:0, instance:testNg.TestNG1@6b0c2d26]" name="test03" duration-ms="0" started-at="2021-07-13T09:44:31Z" finished-at="2021-07-13T09:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method status="PASS" signature="test02()[pri:2, instance:testNg.TestNG1@6b0c2d26]" name="test02" duration-ms="0" started-at="2021-07-13T09:44:34Z" finished-at="2021-07-13T09:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+      </class> <!-- testNg.TestNG1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

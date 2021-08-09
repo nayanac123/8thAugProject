@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="testNg.TransFormListener">
+
+</listener>
+
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--  class name="testNg.Test5"/-->
+      <!--  class name="testNg.TestNg4"/-->
+      <class name="testNg.ListenerTest"/>
+      <!--  class name="testNg.TestNG3"/-->
+      <!--  class name="testNg.TestNG2"/-->
+      <!--  class name="testNg.TestNG1"/-->
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

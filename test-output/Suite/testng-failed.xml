@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="testNg.TestNG2">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- testNg.TestNG2 -->
+      <class name="testNg.ListenerTest">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- testNg.ListenerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
